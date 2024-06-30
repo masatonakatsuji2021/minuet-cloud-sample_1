@@ -1,1 +1,7 @@
-Cloud A Main page.
+<style>
+body {
+    background:#c61;
+    color:#fff
+}
+</style>
+Cloud Sample-1 Page..

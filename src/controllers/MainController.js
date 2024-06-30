@@ -10,8 +10,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MainController = void 0;
-const MainController_1 = require("minuet-server-cloud/src/controllers/MainController");
-class MainController extends MainController_1.MainController {
+const minuet_server_cloud_1 = require("minuet-server-cloud");
+class MainController extends minuet_server_cloud_1.Controller {
+    constructor() {
+        super(...arguments);
+        this.autoRender = true;
+    }
     index() {
         return __awaiter(this, void 0, void 0, function* () { });
     }

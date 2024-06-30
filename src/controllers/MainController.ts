@@ -1,6 +1,8 @@
-import { MainController as _ } from "minuet-server-cloud/src/controllers/MainController";
+import { Controller } from "minuet-server-cloud";
 
-export class MainController extends _ {
+export class MainController extends Controller {
 
-    public async index() { }
+    public autoRender : boolean = true;
+
+    public async index() {}
 }
