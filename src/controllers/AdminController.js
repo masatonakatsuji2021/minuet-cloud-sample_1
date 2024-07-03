@@ -15,5 +15,11 @@ class AdminController extends AdminController_1.AdminController {
     index() {
         return __awaiter(this, void 0, void 0, function* () { });
     }
+    detail() {
+        return __awaiter(this, void 0, void 0, function* () {
+            this.autoRender = false;
+            this.res.write("Detail Page...");
+        });
+    }
 }
 exports.AdminController = AdminController;
