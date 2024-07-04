@@ -10,8 +10,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AdminController = void 0;
-const AdminController_1 = require("minuet-server-cloud/src/controllers/AdminController");
-class AdminController extends AdminController_1.AdminController {
+const minuet_server_cloud_1 = require("minuet-server-cloud");
+class AdminController extends minuet_server_cloud_1.AdminController {
     index() {
         return __awaiter(this, void 0, void 0, function* () { });
     }

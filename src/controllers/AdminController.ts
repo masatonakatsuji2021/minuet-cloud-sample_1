@@ -1,4 +1,4 @@
-import { AdminController as AdminController_} from "minuet-server-cloud/src/controllers/AdminController";
+import { AdminController as AdminController_} from "minuet-server-cloud";
 
 export class AdminController extends AdminController_ {
 
